@@ -24,85 +24,88 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <h1>Contact US</h1>
-    <section class="contact-information">
-        <h2>White Water Rafting Company</h2>
-        <p><strong>Address:</strong> 123 Main River Street</p>
-        <p><strong>Phone:</strong> +1 999 999 999</p>
-        <p><strong>Email:</strong> info@whitewaterrafting.com</p>
-    </section>
+    <main>
+        <h1>White Water Rafting Company Contact Us</h1>
 
-    <section class="map">
-        <iframe class="map"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1310304.8624934733!2d32.603244290788375!3d-26.367058531263936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-PT!2smz!4v1780857024679!5m2!1spt-PT!2smz"
-          width="450" height="450" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+        <section class="contact-information">
+            <h2>White Water Rafting Company</h2>
+            <p><strong>Address:</strong> 123 Main River Street</p>
+            <p><strong>Phone:</strong> +1 999 999 999</p>
+            <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+        </section>
 
-    <section class="employees">
-        <h2>We Are Here to Serve You</h2>
+        <section class="map">
+            <h2>Our Location</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1310304.8624934733!2d32.603244290788375!3d-26.367058531263936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-PT!2smz!4v1780857024679!5m2!1spt-PT!2smz"
+              width="450" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
 
-        <figure>
-            <img src="images/employee1.jpg" alt="Raquel Telma">
-            <figcaption>Raquel Telma - River Guide</figcaption>
-        </figure>
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
 
-        <figure>
-            <img src="images/employee2.jpg" alt="Zefas Niasse">
-            <figcaption>Zefas Niasse - Reservation Manager</figcaption>
-        </figure>
+            <figure>
+                <img src="images/employee1.jpg" alt="Raquel Telma">
+                <figcaption>Raquel Telma - River Guide</figcaption>
+            </figure>
 
-        <figure>
-            <img src="images/employee3.jpg" alt="Carson Mazivila">
-            <figcaption>Carson Mazivila - Operator Director</figcaption>
-        </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Zefas Niasse">
+                <figcaption>Zefas Niasse - Reservation Manager</figcaption>
+            </figure>
 
-    </section>
+            <figure>
+                <img src="images/employee3.jpg" alt="Carson Mazivila">
+                <figcaption>Carson Mazivila - Operations Director</figcaption>
+            </figure>
+        </section>
 
-    <section class="contact-form">
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
 
-        <form>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+                <p>Purpose of Message</p>
 
-            <p>Purpose of Message</p>
+                <label>
+                    <input type="radio" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
 
-            <label>
-                <input type="radio" name="purpose" value="general" required>
-                General Inquiry
-            </label>
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
 
-            <label>
-                <input type="radio" name="purpose" value="reservation">
-                Reservation Question
-            </label>
+                <label>
+                    <input type="radio" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
 
-            <label>
-                <input type="radio" name="purpose" value="suggestion">
-                Website Suggestion
-            </label>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <label>
-                <input type="checkbox" name="newsletter">
-                Please subscribe me to the monthly newsletter
-            </label>
-            <button type="submit">Get in Touch!</button>
-        </form>
-    </section>
-    </section>
+                <label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
 
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2026 Rafting Company | Armindo Mazivila</p>
+        <p>&copy; 2026 White Water Rafting Company | Armindo A. Mazivila</p>
 
         <nav class="socialmedia">
             <a href="https://facebook.com">
@@ -110,15 +113,12 @@
             </a>
 
             <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram">
+                <img src="images/instagram.svg" alt="Instagram Icon">
             </a>
 
             <a href="https://twitter.com">
-                <img src="images/twitter.svg" alt="Twitter">
+                <img src="images/twitter.svg" alt="Twitter Icon">
             </a>
         </nav>
     </footer>
-
 </body>
-
-</html>
