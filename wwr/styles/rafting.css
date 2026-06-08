@@ -187,6 +187,64 @@ footer {
     padding: 16px;
 }
 
+/* Contact Page */
+
+.contact-info,
+.contact-form {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.contact-info iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.employees {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.employees figure {
+    text-align: center;
+}
+
+.employees img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -197,5 +255,5 @@ footer {
 }
 
 .socialmedia img {
-    width: 35px;
+    width: 35
 }
