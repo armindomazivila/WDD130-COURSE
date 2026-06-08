@@ -249,6 +249,15 @@ footer {
     background-color: var(--secondary-color);
 }
 
+.radio-group label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
