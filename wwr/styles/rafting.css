@@ -189,7 +189,7 @@ footer {
 
 /* Contact Page */
 
-.contact-info,
+.contact-information,
 .contact-form {
     max-width: 800px;
     margin: 2rem auto;
@@ -255,5 +255,6 @@ footer {
 }
 
 .socialmedia img {
-    width: 35
+    width: 35px;
+    height: auto;
 }
