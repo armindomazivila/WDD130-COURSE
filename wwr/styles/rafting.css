@@ -47,9 +47,13 @@ article {
 }
 
 header,
-main,
 footer {
     max-width: 840px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -258,10 +262,6 @@ input[type="radio"] {
     margin-right: 8px;
 }
 
-/* trips css */
-
-/* Trips Page /
-
 .trips-hero {
     text-align: center;
     padding: 3rem 2rem;
@@ -298,8 +298,6 @@ input[type="radio"] {
     background-color: var(--accent2-color);
 }
 
-/ Trip Cards /
-
 .trip-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -312,7 +310,7 @@ input[type="radio"] {
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
 .trip-card img {
@@ -334,8 +332,6 @@ input[type="radio"] {
     padding: 0 2rem 1.5rem;
 }
 
-/ Equipment Section /
-
 .equipment {
     background-color: #f4f4f4;
     padding: 2rem;
@@ -350,8 +346,6 @@ input[type="radio"] {
 .equipment ul {
     margin-left: 2rem;
 }
-
-/ Trip Table */
 
 .trip-table {
     padding: 2rem;
@@ -395,4 +389,28 @@ input[type="radio"] {
 .socialmedia img {
     width: 35px;
     height: auto;
+}
+
+.socialmedia img {
+    width: 35px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .history {
+        grid-template-columns: 1fr;
+    }
+
+    .adventures {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
