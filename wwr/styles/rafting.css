@@ -391,11 +391,6 @@ input[type="radio"] {
     height: auto;
 }
 
-.socialmedia img {
-    width: 35px;
-    height: auto;
-}
-
 @media (max-width: 768px) {
     .history {
         grid-template-columns: 1fr;
