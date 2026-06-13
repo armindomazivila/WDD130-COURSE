@@ -45,6 +45,10 @@ h1 {
     justify-content: center;
 }
 
+figcaption {
+    text-align: center;
+}
+
 p,
 section,
 article {
