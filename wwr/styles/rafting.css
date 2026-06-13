@@ -252,9 +252,11 @@ footer {
     font-weight: bold;
 }
 
-.contact-form {
+.contact-top {
     display: grid;
-    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin-botton: 3rem;
 }
 
 .contact-form input,
