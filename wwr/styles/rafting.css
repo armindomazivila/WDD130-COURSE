@@ -39,6 +39,12 @@ h1 {
     color: var(--accent1-color);
 }
 
+.button {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
 p,
 section,
 article {
