@@ -221,21 +221,35 @@ footer {
 }
 
 .employees {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.employee-gallery {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-    margin: 2rem 0;
 }
 
-.employees figure {
-    text-align: center;
+.employee-gallery figure {
+    width: 200px;
+    margin: 0;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
 }
 
-.employees img {
+.employee-gallery img {
     width: 200px;
     height: auto;
-    border-radius: 8px;
+    object-fit: cover border-radius: 8px;
+}
+
+.employee-gallery figcaption {
+    margin-top: 0.75rem;
+    font-weight: bold;
 }
 
 .contact-form {
